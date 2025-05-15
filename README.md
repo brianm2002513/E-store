@@ -1,5 +1,5 @@
 # 🛍️ Minimal E-Commerce Site
-A lightweight, responsive e-commerce application built with React. This project demonstrates a clean implementation of product browsing, category filtering, cart management, and a basic checkout experience — all built with a focus on simplicity, usability, and code clarity.
+This project demonstrates a clean implementation of product browsing, category filtering, cart management, and a basic checkout experience — all built with a focus on simplicity, usability, and code clarity.
 
 # 🚀 Features
 🖼 Product Listing – Browse a collection of products with images, prices, and short descriptions.
