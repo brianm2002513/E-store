@@ -1,5 +1,5 @@
 
-const BASE_URL = "http://localhost:3001"
+const BASE_URL = "https://json-api-9m4j.onrender.com"
 
 export const fetcher = async (url) => {
     let responseObject = { errorMessage: '', data: [] };
