@@ -21,7 +21,7 @@ Basic CSS for styling (styled components)
 
 # 📸 Demo
 
-You can try a live version here: [Live Demo](https://e-store-mu-one.vercel.app/basket)
+You can try a live version here: [Live Demo](https://e-store-mu-one.vercel.app/)
 
 # 📌 What I Focused On
 Building clean and modular React components
