@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# 🛍️ Minimal E-Commerce Site
+This project demonstrates a clean implementation of product browsing, category filtering, cart management, and a basic checkout experience — all built with a focus on simplicity, usability, and code clarity.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🚀 Features
+🖼 Product Listing – Browse a collection of products with images, prices, and short descriptions.
 
-## Available Scripts
+🧭 Category Filtering – View products by specific categories for faster navigation.
 
-In the project directory, you can run:
+🛒 Shopping Cart – Add items to a basket, view and manage cart contents in real time.
 
-### `npm start`
+✅ Checkout Flow – Proceed through a simple checkout interface (mocked for demo purposes).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 🛠 Tech Stack
+React (functional components + hooks)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+React Router for client-side navigation
 
-### `npm test`
+Context API for global state management (basket/cart)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Basic CSS for styling (styled components)
 
-### `npm run build`
+# 📸 Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can try a live version here: [Live Demo](https://e-store-mu-one.vercel.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 📌 What I Focused On
+Building clean and modular React components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Managing global state without external libraries
 
-### `npm run eject`
+Creating a responsive and intuitive user experience
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Writing maintainable, readable code for real-world use
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 🧠 What I’d Improve Next
+Add backend integration (Node.js/Express or Firebase)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Implement user authentication
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Improve form validation on checkout
