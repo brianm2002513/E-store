@@ -11,6 +11,10 @@
     {
       "id": 3,
       "title": "Televisions"
+    },
+    {
+      "id": 4,
+      "title": "Microwaves"
     }
   ],
   "products": [
@@ -48,6 +52,13 @@
         "dimensions": "84.5 x 55.3 x 58.4 cm (H x W x D)",
         "capacity": "131 litres"
       },
+      "features": [
+        "Compact design ideal for smaller kitchens or apartments",
+        "Adjustable glass shelves to customize your storage space",
+        "Reversible door for flexible kitchen layout",
+        "Transparent salad crisper keeps your fruit and veg fresh",
+        "Energy-efficient performance to help reduce electricity bills"
+      ],
       "stock": 0
     },
     {
@@ -221,6 +232,72 @@
         "HDMI 2.1 x 2 / HDMI 2.0 x 2"
       ],
       "stock": 16
+    },
+    {
+      "id": 11,
+      "catId": 2,
+      "title": "RUSSELL HOBBS 20460 Quiet Boil Kettle – Stainless Steel",
+      "productCode": "20460",
+      "image": "51-RqR8CzYL._AC_SX569_.jfif",
+      "price": 34,
+      "sku": "RH20460",
+      "description": "Enjoy your tea in peace with the Russell Hobbs 20460 Quiet Boil Kettle. Designed to boil water up to 75% quieter than a standard kettle, it's ideal for early mornings or shared spaces.",
+      "specs": {
+        "capacity": "1.7 litres",
+        "power": "3000 W"
+      },
+      "features": [
+        "Quiet boil technology for reduced noise",
+        "Rapid boil zone for quick hot drinks",
+        "Easy-view water window",
+        "360° base for left or right-handed use",
+        "Removable, washable filter"
+      ],
+      "stock": 15
+    },
+    {
+      "id": 12,
+      "catId": 2,
+      "title": "BREVILLE Curve VKJ755 Jug Kettle – White",
+      "productCode": "VKJ755",
+      "image": "61vlK9mm-KL._AC_SX569_.jfif",
+      "price": 29,
+      "sku": "BRVKJ755",
+      "description": "With its elegant textured design and fast boil capabilities, the Breville Curve VKJ755 is a stylish and practical addition to any kitchen.",
+      "specs": {
+        "capacity": "1.7 litres",
+        "power": "3000 W"
+      },
+      "features": [
+        "Illuminated water window",
+        "Boil-dry protection for safety",
+        "Cord storage to reduce clutter",
+        "Matching toaster available",
+        "Push-button lid release"
+      ],
+      "stock": 22
+    },
+    {
+      "id": 13,
+      "catId": 4,
+      "title": "SHARP R372WM Solo Microwave – White",
+      "productCode": "R372WM",
+      "image": "51UH0qTUVNL._AC_SX342_SY445_.jfif",
+      "price": 89,
+      "sku": "SHR372WM",
+      "description": "The Sharp R372WM Microwave is a versatile, easy-to-use solo microwave with a generous 25-litre capacity and 11 power levels for precise cooking.",
+      "specs": {
+        "capacity": "25 litres",
+        "power": "900 W"
+      },
+      "features": [
+        "11 power levels for versatile cooking",
+        "Auto cook and defrost programs",
+        "Large LED display with timer",
+        "Child lock for added safety",
+        "Easy-clean interior"
+      ],
+      "stock": 10
     }
   ]
 }

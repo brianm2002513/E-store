@@ -1,34 +1,59 @@
+const DB_URL = "/db.json";
 
-const BASE_URL = "http://localhost:3001"
-
-export const fetcher = async (url) => {
-    let responseObject = { errorMessage: '', data: [] };
+const fetchDB = async () => {
+    let responseObject = { errorMessage: '', data: {} };
     try {
-        const response = await fetch(BASE_URL + url);
+        const response = await fetch(DB_URL);
         if (!response.ok) {
-            throw new Error(`HTTP Error ${response.status}`)
+            throw new Error(`HTTP Error ${response.status}`);
         }
         const responseData = await response.json();
-        responseObject.errorMessage = '';
         responseObject.data = responseData;
     } catch (err) {
         responseObject.errorMessage = err.message;
     }
     return responseObject;
-}
+};
 
-export const getCategories = () => {
-    return fetcher('/categories');
-}
+export const getCategories = async () => {
+    const result = await fetchDB();
+    if (result.errorMessage) return result;
+    return {
+        errorMessage: '',
+        data: result.data.categories || []
+    };
+};
 
-export const getProducts = id => {
-    return fetcher('/products?catId=' + id);
-}
+export const getProducts = async (catId) => {
+    const result = await fetchDB();
+    if (result.errorMessage) return result;
+    const products = result.data.products || [];
+    return {
+        errorMessage: '',
+        data: products.filter(p => p.catId === Number(catId))
+    };
+};
 
-export const getProductById = id => {
-    return fetcher('/products/' + id);
-}
+export const getProductById = async (id) => {
+    const result = await fetchDB();
+    if (result.errorMessage) return result;
+    const products = result.data.products || [];
+    const product = products.find(p => p.id === Number(id));
+    return {
+        errorMessage: '',
+        data: product || null
+    };
+};
 
-export const getProductsByQuery = query => {
-    return fetcher('/products?q=' + query);
-}
+export const getProductsByQuery = async (query) => {
+    const result = await fetchDB();
+    if (result.errorMessage) return result;
+    const products = result.data.products || [];
+    const filtered = products.filter(p =>
+        p.title.toLowerCase().includes(query.toLowerCase())
+    );
+    return {
+        errorMessage: '',
+        data: filtered
+    };
+};

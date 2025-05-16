@@ -67,7 +67,7 @@ header {
     font-size: 35px;
     color: white;
     display: grid;
-    grid-template-columns: 0.1fr 0.1fr 1fr 0.1fr ;
+    grid-template-columns: 0.1fr 0.1fr 1fr 0.1fr;
 }
 
 header a {
@@ -89,7 +89,7 @@ header a {
 }
 
 #headerTitle {
-    justify-self: center;
+    justify-self: end;
 }
 
 #headerCartIcon {
@@ -129,7 +129,7 @@ nav ul li:hover {
 main {
     flex: 0.9;
     padding-top: 20px;
-    min-height: 1600px;
+    /* min-height: 1600px; */
 }
 
 article {
@@ -145,6 +145,10 @@ footer {
     padding: 10px;
     text-align: center;
     color: white;
+    position: relative;
+    width: 100%;
+    left: 0;
+    bottom: 0
 }
 
 footer a {
