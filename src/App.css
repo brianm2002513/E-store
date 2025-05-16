@@ -129,7 +129,7 @@ nav ul li:hover {
 main {
     flex: 0.9;
     padding-top: 20px;
-    /* min-height: 1600px; */
+    min-height: 77vh;
 }
 
 article {
