@@ -37,6 +37,4 @@ Add backend integration (Node.js/Express or Firebase)
 
 Implement user authentication
 
-Add product search and filtering logic
-
 Improve form validation on checkout
